@@ -6,4 +6,5 @@ int main(){
     /*This is multi
     line comment*/
    cout<<"Shri Ram"<<endl;
+  cout<<"Shri Ram"<<endl;
 }
