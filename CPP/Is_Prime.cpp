@@ -23,4 +23,6 @@ int main()
     assert(!isPrime(8));
     assert(!isPrime(9));
     assert(!isPrime(10));
+    
+    assert(!isPrime(11));
 }
