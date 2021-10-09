@@ -50,7 +50,7 @@ int num_codes_i(int * input, int size) {
 	int* output = new int[size + 1];
 	output[0] = 1;
 	output[1] = 1;
-
+	int i =0;
 	for (int i = 2; i <= size; i++) {
 		output[i] = output[i - 1];
 		if (input[i-2] *10 + input[i - 1] <= 26) {
